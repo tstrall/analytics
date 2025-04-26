@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    database: infra-inkwell-457919-t8
+    schema: dev_raw
+    tables:
+      - name: customers
+      - name: orders
+
+models:
+  - name: stg_customers
+    description: "Staged version of customers table."
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_orders
+    description: "Staged version of orders table."
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
