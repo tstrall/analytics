@@ -1,0 +1,36 @@
+seeds:
+  - name: customers
+    description: "Seed file containing customer master data."
+    schema: dev_raw
+    columns:
+      - name: customer_id
+        description: "Unique ID for each customer."
+        tests:
+          - not_null
+          - unique
+      - name: first_name
+        description: "First name of the customer."
+      - name: last_name
+        description: "Last name of the customer."
+      - name: email
+        description: "Email address of the customer."
+      - name: created_at
+        description: "Date the customer was created."
+
+  - name: orders
+    description: "Seed file containing order transaction data."
+    schema: dev_raw
+    columns:
+      - name: order_id
+        description: "Unique ID for each order."
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "ID of the customer who placed the order."
+        tests:
+          - not_null
+      - name: order_date
+        description: "Date when the order was placed."
+      - name: order_total
+        description: "Total monetary value of the order."
