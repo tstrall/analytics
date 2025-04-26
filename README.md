@@ -189,6 +189,23 @@ This will:
 
 ---
 
+## Deployment Instructions
+
+For a full step-by-step deployment guide, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+
+---
+
+## 📊 Tableau Dashboard
+
+- [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbt_analytics/Sheet1)
+- [Tableau Files and Documentation](./tableau/README.md)
+
+> **Note:**  
+> This Tableau dashboard reflects a snapshot of the dbt-transformed data as of the publish date.  
+> Tableau Public dashboards do not maintain live BigQuery connections.
+
+---
+
 ## Troubleshooting
 
 | Problem | Solution |
