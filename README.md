@@ -2,6 +2,8 @@
 
 [![Release](https://img.shields.io/badge/Release-v1.0.0-green)](https://github.com/tstrall/analytics/releases/tag/v1.0.0)
 
+![Building a Modern Data Stack with dbt, BigQuery, and Tableau](/img/dbt-analytics-demo.png)
+
 This project demonstrates a clean, production-style dbt setup modeling a simple e-commerce system.
 
 It follows best practices for modular, environment-agnostic dbt projects, including raw source management, staging, marts, tests, and documentation.
