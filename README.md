@@ -1,5 +1,7 @@
 # Analytics – dbt Demo Project
 
+[![Release](https://img.shields.io/badge/Release-v1.0.0-green)](https://github.com/tstrall/analytics/releases/tag/v1.0.0)
+
 This project demonstrates a clean, production-style dbt setup modeling a simple e-commerce system.
 
 It follows best practices for modular, environment-agnostic dbt projects, including raw source management, staging, marts, tests, and documentation.
@@ -195,7 +197,7 @@ For a full step-by-step deployment guide, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 ---
 
-## 📊 Tableau Dashboard
+## Tableau Dashboard
 
 - [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbtAnalyticsDemo/Revenue)
 - [Tableau Files and Documentation](./tableau/README.md)
@@ -223,6 +225,15 @@ This project is built first for BigQuery. Future enhancements include:
 - Snowflake version
 - Automated ingestion with Fivetran
 - Additional visualization dashboards
+
+---
+
+## Built With
+
+- [dbt](https://www.getdbt.com/) — Data transformation and modeling
+- [Google BigQuery](https://cloud.google.com/bigquery) — Cloud data warehouse
+- [Tableau](https://www.tableau.com/) — Data visualization
+- [GitHub](https://github.com/) — Source control and project management
 
 ---
 
@@ -254,3 +265,12 @@ dbt docs generate
  dbt docs serve
 ```
 
+---
+
+## Latest Release
+
+Version [v1.0.0](https://github.com/tstrall/analytics/releases/tag/v1.0.0) — Initial dbt + BigQuery + Tableau stack
+
+- dbt transformations and tests
+- Automated deploy script
+- Tableau dashboard for Top Customers and Revenue Trends
