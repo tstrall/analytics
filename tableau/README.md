@@ -8,7 +8,7 @@ This Tableau dashboard visualizes key business metrics from the Analytics projec
 - Order Volume Over Time
 
 ## Links:
-- [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbt_analytics/Sheet1)
+- [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbtAnalyticsDemo/Revenue)
 - [Download Tableau Workbook (.twbx)](./analytics_dashboard.twbx)
 
 > **Note:**  

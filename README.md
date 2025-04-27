@@ -197,7 +197,7 @@ For a full step-by-step deployment guide, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 
 ## 📊 Tableau Dashboard
 
-- [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbt_analytics/Sheet1)
+- [View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/ted.strall/viz/dbtAnalyticsDemo/Revenue)
 - [Tableau Files and Documentation](./tableau/README.md)
 
 > **Note:**  
